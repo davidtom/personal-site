@@ -2,6 +2,8 @@ baseURL = 'https://davidtom.dev/'
 languageCode = 'en-us'
 title = 'David Tomczyk'
 theme = 'hugo-sustain'
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = "G-XQ0JMFEY8W"
 
 [params]
   avatar = "img/profile.png"
