@@ -1,7 +1,34 @@
-baseURL = 'https://www.davidtom.dev/'
+baseURL = 'https://davidtom.dev/'
 languageCode = 'en-us'
 title = 'David Tomczyk'
 theme = 'hugo-sustain'
+
+[params]
+  avatar = "img/profile.png"
+  author = "David Tomczyk"
+  description = "My personal web page"
+
+[params.social]
+  Github        = "davidtom"
+  Email         = "davidjtomczyk@gmail.com"
+  LinkedIn      = "davidjtomczyk"
+  Medium        = "davidjtomczyk"
+
+[[menu.main]]
+# name = "blog"
+# weight = 100
+# identifier = "blog"
+#  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/dtomczyk_resume.pdf"
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
@@ -13,7 +40,7 @@ theme = 'hugo-sustain'
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "production"
-URL = "gs://www.davidtom.dev"
+URL = "gs://davidtom.dev"
 
 [[deployment.matchers]]
 # Cache static assets for 1 year.

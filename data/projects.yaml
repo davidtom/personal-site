@@ -1,14 +1,12 @@
 name: Projects
 
-# FIXME: add upnext!
-
 source:
-  - icon: fa fa-github
-    name: Project 1
-    description: Ei viderer tacimates pro, quem assum ea nam. Veritus omnesque eam te. Et natum mucius tamquam vel, ea dolorem volumus deterruisset nec. Graeci mentitum sea an, eu prima elaboraret est.
-    url: https://github.com/davidtom
+  - icon: fa fa-newspaper-o
+    name: Brief.news
+    description: (Professional) AI-powered newsletter that distills 10,000+ articles into the day's top stories across the topics you care about.
+    url: https://brief.news
 
-  - icon: fa fa-cog
+  - icon: fa fa-music
     name: MusicLense
-    description: Essent putant indoctum sed in, reprimique persequeris neglegentur te quo. Nam rebum tractatos partiendo at, debet ubique oporteat ut his.
+    description: (Personal) Tracks play counts for music you listen to on Spotify. Shows your top played songs and your recent play history in a simple UI. A work in progress!
     url: https://musiclense.com
