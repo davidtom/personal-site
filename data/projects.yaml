@@ -7,6 +7,6 @@ source:
     url: https://brief.news
 
   - icon: fa fa-music
-    name: MusicLense
+    name: Music Lens
     description: (Personal) Tracks play counts for music you listen to on Spotify. Shows your top played songs and your recent play history in a simple UI. A work in progress!
-    url: https://musiclense.com
+    url: https://www.musiclens.app
