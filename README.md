@@ -1,6 +1,6 @@
 # David Tomczyk's Personal Site
 
-<!-- TODO: set up git repo (and action to deploy!) -->
+<!-- TODO: set up github action to deploy on pushes to master
 <!-- TODO: look into this, but when i deploy i might need/want to purge the cloudflare cache: https://dash.cloudflare.com/832859148f146e8beb31f52450f51344/davidtom.dev/caching/configuration (see API docs) -->
 <!-- TODO: review theme features: https://themes.gohugo.io/themes/hugo-sustain/#features
 in particular, make sure I set up config correctly: https://github.com/suyundukov/hugo-sustain/blob/master/exampleSite/config.toml
