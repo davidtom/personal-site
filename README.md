@@ -53,5 +53,5 @@ gsutil iam ch allUsers:objectViewer gs://davidtom.dev
 hugo
 
 # deploy
-hugo deploy
+GOOGLE_APPLICATION_CREDENTIALS=<path to credentials> hugo deploy
 ```
